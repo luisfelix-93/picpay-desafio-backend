@@ -19,11 +19,6 @@ RUN npm install
 # Rebuild do módulo bcrypt
 RUN npm rebuild bcrypt --build-from-source
 
-# Copiar todos os arquivos para o diretório de trabalho
-# ENV MONGO_URI=mongodb+srv://luisfelixfilho:lfcf%401310@cluster0.hjmased.mongodb.net/dev-pay-db
-# ENV EMAIL_LOCAL=devpay.service@gmail.com
-# ENV PASSWORD='fpsx mzry otla bpgt'
-
 
 # Comando para iniciar a aplicação
 ENTRYPOINT npm start
